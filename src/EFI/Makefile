@@ -14,4 +14,4 @@ data.o: data.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
 clean:
-	rm data.o efiboot.o BOOTX64.EFI
+	@rm -f data.o efiboot.o BOOTX64.EFI
